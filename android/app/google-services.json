@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "527153013803",
+    "project_id": "csa-quiz-app",
+    "storage_bucket": "csa-quiz-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527153013803:android:bd1e70b3a58925d16cb66e",
+        "android_client_info": {
+          "package_name": "com.example.csa_quiz_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527153013803-btvhk21t5nbc6g15lerh7bo4ajahbth1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg_mVM4IrLE7BzbISTx-VZZyvr5RoMJJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527153013803-btvhk21t5nbc6g15lerh7bo4ajahbth1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

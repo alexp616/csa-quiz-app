@@ -7,8 +7,13 @@ environment:
   sdk: '>=2.19.2 <3.0.0'
 
 dependencies:
+  cloud_firestore: ^4.4.3
+  firebase_auth: ^4.2.9
+  firebase_core: ^2.7.0
+  firebase_ui_auth: ^1.1.15
   flutter:
     sdk: flutter
+  provider: ^6.0.5
 
 dev_dependencies:
   flutter_test:
