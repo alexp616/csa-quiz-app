@@ -13,6 +13,8 @@ dependencies:
   firebase_ui_auth: ^1.1.15
   flutter:
     sdk: flutter
+  go_router: ^6.2.0
+  percent_indicator: ^4.2.3
   provider: ^6.0.5
 
 dev_dependencies:
