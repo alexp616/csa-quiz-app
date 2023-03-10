@@ -18,7 +18,7 @@ class _LoginPageState extends State<LoginPage> {
 
   Future<void> signInWithEmailAndPassword() async {
     try {
-      await Auth().signInWithEmailAndPassword(
+      await Auth().signIn(
         email: _controllerEmail.text,
         password: _controllerPassword.text,
       );
@@ -31,7 +31,7 @@ class _LoginPageState extends State<LoginPage> {
 
   Future<void> createUserWithEmailAndPassword() async {
     try {
-      await Auth().createUserWithEmailAndPassword(
+      await Auth().createUser(
         email: _controllerEmail.text,
         password: _controllerPassword.text,
       );
@@ -44,18 +44,6 @@ class _LoginPageState extends State<LoginPage> {
 
   Widget _title() {
     return const Text('Firebase Auth');
-  }
-
-  Widget _entryField(
-    String title,
-    TextEditingController controller,
-  ) {
-    return TextField(
-      controller: controller,
-      decoration: InputDecoration(
-        labelText: title,
-      )
-    );
   }
 
   Widget _errorMessage() {
@@ -97,13 +85,13 @@ class _LoginPageState extends State<LoginPage> {
           children: <Widget>[
             TextField(
               controller: _controllerEmail,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: 'email',
               )
             ),
             TextField(
               controller: _controllerPassword,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: 'password',
               ),
               obscureText: true,
